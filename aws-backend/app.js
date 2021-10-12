@@ -11,8 +11,8 @@ app.use(express.json());
 
 const AWS = require("aws-sdk");
 const { json } = require("body-parser");
-const ID = "AKIAS4J3CSKBEV5KY7FK";
-const SECRET = "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";
+const ID = "";
+const SECRET = "";
 const s3 = new AWS.S3({
     accessKeyId: ID,
     secretAccessKey: SECRET,
